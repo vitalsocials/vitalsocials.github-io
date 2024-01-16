@@ -1,0 +1,558 @@
+@media only screen and (min-width: 2500px) {
+    footer {
+        padding-top: 11%;
+        padding-bottom: 6%;
+    }
+
+    footer .contact-options {
+        padding-bottom: 7%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    
+    .container {
+        width: 90%;
+    }
+
+    .portfolio-section .container {
+        width: 100%;
+    }
+
+    .services-grid {
+        grid-template-columns: auto auto;
+    }
+
+    .services-grid #service1,
+    .services-grid #service2,
+    .services-grid #service3,
+    .services-grid #service4 {
+        grid-column: auto;
+        grid-row: auto;
+        min-width: auto;
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        gap: 20px;
+        min-width: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 1335px) {
+
+    #resultsGroup0 {
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    #resultsGroup0 .results-img {
+        /* width: 80%; */
+        max-height: 300px;
+        height: 100%;
+    }
+
+    #single-result, #resultsGroup2 {
+        width: 49%;
+    }
+
+    .box {
+        justify-content: left;
+    }
+
+}
+
+@media only screen and (max-width: 1250px) {
+    
+    .hero-main-content h1 {
+        font-size: 60px;
+    }
+
+    .hero-main-content h2 {
+        font-size: 36px;
+    }
+
+    .hero-main-content p {
+        font-size: 20px;
+    }
+
+    .cta-btn {
+        width: 270px;
+        font-size: 22px;
+    }
+
+    .company-logos img {
+        width: 70px;
+    }
+
+    .hero-portrait img {
+        width: 300px;
+    }
+
+    .portfolio-section .container {
+        width: 75%;
+    }
+
+    .portfolio-section .container .devices-wrapper .devices {
+        column-gap: 80px;
+        /* width: 60%; */
+    }
+
+    .services-grid {
+        grid-template-columns: auto auto;
+    }
+
+    .services-grid #service1,
+    .services-grid #service2,
+    .services-grid #service3,
+    .services-grid #service4 {
+        grid-column: auto;
+        grid-row: auto;
+        min-width: auto;
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        gap: 20px;
+        min-width: 400px;
+    }
+
+    #single-result, #resultsGroup2 {
+        width: 48%;
+    }
+
+    .about-card {
+        flex-direction: row-reverse;
+        /* flex-direction: column; */
+    }
+
+}
+
+@media only screen and (max-width: 1110px) and (min-width: 950px) {
+    
+    .hero-main-content .company-logos {
+        width: 70%;
+    }
+
+    .portfolio-section .container {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 1110px) {
+
+    .hero-main-content .company-logos {
+        margin-top: 20px;
+        flex-wrap: wrap;
+        row-gap: 0;
+    }
+
+    .hero-main-content .company-logos img {
+        width: 70px;
+    }
+
+    .hero-section nav {
+        display: none;
+    }
+
+    .hero-section .hamburger {
+        display: block;
+    }
+
+    .portfolio-section .devices {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .services-grid {
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
+    .services-grid #service1,
+    .services-grid #service2,
+    .services-grid #service3,
+    .services-grid #service4 {
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        max-width: 350px;
+    }
+
+    .results-container .box, #resultsGroup0 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #resultsGroup1 {
+        margin: 0 auto;
+    }
+
+    #single-result, #resultsGroup2 {
+        width: 100%;
+    }
+
+    #resultsGroup0 {
+        flex-direction: column-reverse;
+    }
+
+    .results-container {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .results-container .box {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 950px) {
+    
+    .hero-main-content {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .hero-main-content h2 {
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 90%;
+    }
+
+    .hero-main-content p {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-main-content .right-side {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .hero-main-content .right-side .hero-portrait {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+        width: 300px;
+        overflow: hidden;
+        border-radius: 16px;
+        box-shadow: 21px 19px 46.3px 3px rgba(0, 0, 0, 0.15);
+    }
+
+    .hero-main-content .right-side .hero-portrait img {
+        position: absolute;
+        left: 50%;
+        top: -15%;
+        transform: translateX(-50%);
+        box-shadow: none;
+    }
+
+    .services-section {
+        /* padding-top: 250px; */
+        padding-bottom: 300px;
+    }
+
+    .services-section {
+        background-size: 200% 100%;
+        background-position-x: 60%;
+    }
+
+    #hero-blob {
+        top: -300px;
+        right: -500px;
+        transform: rotateZ(-60deg);
+        /* display: none; */
+    }
+
+    .hero-main-content .left-side {
+        width: 100%;
+    }
+
+    .hero-section .cta-btn {
+        width: 100%;
+        max-width: 500px;
+        height: 90px;
+        font-size: 26px;
+        margin-top: 50px;
+    }
+
+    .company-logos {
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .portfolio-section .container {
+        width: 100%;
+    }
+
+    .portfolio-section .container .devices-wrapper .devices {
+        column-gap: 50px;
+        width: 95%;
+    }
+
+    .services-grid {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .services-grid #service1,
+    .services-grid #service2,
+    .services-grid #service3,
+    .services-grid #service4 {
+        grid-column: auto;
+        grid-row: auto;
+        min-width: auto;
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        gap: 20px;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .about-card h1 {
+        font-size: 54px;
+    }
+
+    .about-card p {
+        font-size: 22px;
+    }
+
+    .cta-section .section-subtitle {
+        width: 80%;
+        min-width: 600px;
+    }
+
+}
+
+@media only screen and (max-width: 850px) {
+
+    .about-card {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 765px) {
+
+    .results-container {
+        width: 100%;
+    }
+
+    .results-container #white-results {
+        width: 100%;
+    }
+
+    .results-container #resultsGroup0 {
+        width: 100%;
+    }
+
+    .results-container #resultsGroup0 #resultsGroup1 {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .portfolio-section .section-title {
+        font-size: 40px;
+    }
+
+    .section-title {
+        font-size: 50px;
+    }
+
+    .section-subtitle {
+        min-width: 400px;
+        font-size: 22px;
+    }
+
+    .cta-section .container .socialmedia-logos,
+    .cta-section .container .contact-logos {
+        gap: 40px;
+        padding: 25px 25px;
+    }
+
+    .cta-section .container .socialmedia-logos .logo img,
+    .cta-section .container .contact-logos .logo img {
+        width: 70px;
+    }
+
+    .cta-section form,
+    .cta-section form .input,
+    .cta-section form .input input,
+    .cta-section form .input textarea {
+        width: 100%;
+    }
+
+    .cta-section form .input {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .cta-section .container .socialmedia-logos,
+    .cta-section .container .contact-logos {
+        gap: 25px;
+        padding: 25px 25px;
+    }
+
+    .cta-section .container .socialmedia-logos .logo img,
+    .cta-section .container .contact-logos .logo img {
+        width: 60px;
+    }
+
+    .cta-section .logo .name {
+        font-size: 22px;
+    }
+
+    .cta-section .section-subtitle {
+        min-width: auto;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .services-section {
+        background-size: 300% 100%;
+        background-position-x: 90%;
+    }
+
+    .results-container {
+        padding: 20px;
+    }
+
+    .about-card {
+        padding: 30px;
+        padding-bottom: 55px;
+    }
+
+    .cta-section .container .socialmedia-logos,
+    .cta-section .container .contact-logos {
+        gap: 25px;
+        padding: 20px 20px;
+    }
+
+    .cta-section .container .socialmedia-logos .logo img,
+    .cta-section .container .contact-logos .logo img {
+        width: 60px;
+    }
+
+    .cta-section .logo .name {
+        font-size: 20px;
+    }
+
+    .cta-section form button {
+        margin-top: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    .results-container #resultsGroup0 #resultsGroup1 .results-img {
+        width: 100%;
+    }
+
+    .cta-section .container .socialmedia-logos,
+    .cta-section .container .contact-logos {
+        flex-direction: column;
+        gap: 50px;
+        padding: 25px 25px;
+    }
+
+    .cta-section .container .socialmedia-logos .logo img,
+    .cta-section .container .contact-logos .logo img {
+        width: 90px;
+    }
+
+    .cta-section .logo .name {
+        font-size: 24px;
+    }
+
+    .cta-section form {
+        padding: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .results-container #resultsGroup0 #resultsGroup1 #results-with-arrows .arrows {
+        bottom: 7px;
+        scale: 0.7;
+    }
+
+    footer .footer-nav .lists {
+        gap: 60px;
+    }
+
+    .services-section .section-subtitle {
+        min-width: auto;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .hero-main-content h1 {
+        font-size: 54px;
+    }
+
+    .hero-main-content h2 {
+        font-size: 32px;
+    }
+
+    .results-container #resultsGroup0 #resultsGroup1 #results-with-arrows .arrows {
+        bottom: 0;
+        scale: 0.7;
+    }
+
+    .cta-section form {
+        padding: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 355px) {
+
+    .hero-main-content h1 {
+        font-size: 50px;
+    }
+
+    .hero-main-content h2 {
+        font-size: 28px;
+    }
+
+    .hero-main-content p {
+        font-size: 18px;
+    }
+
+    .hero-main-content .cta-btn {
+        height: 70px;
+        font-size: 24px;
+    }
+
+}
