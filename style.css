@@ -48,10 +48,29 @@ body {
 
 .hero-section nav ul li {
     font-weight: 500;
+    transition: all 0.2s ease;
+    position: relative;
 }
 
 .hero-section nav ul li.active {
     font-weight: 700;
+}
+
+.hero-section nav ul li:hover, footer ul li:hover {
+    text-decoration: underline;
+    /* border-bottom: 1px solid black; */
+}
+
+.hero-section .logo {
+    transition: all 0.2s ease;
+}
+
+.hero-section nav ul li:active, .hero-section .logo:active, footer ul li:active {
+    scale: .97;
+}
+
+footer ul li {
+    transition: all 0.2s ease;
 }
 
 .hero-section .hamburger, .hero-section .hamburger-close {
@@ -206,6 +225,7 @@ body {
 
 .cta-btn:hover, .cta-section button:hover {
     cursor: pointer;
+    filter: brightness(1.08);
 }
 
 .cta-btn:active, .cta-section button:active {
@@ -503,6 +523,18 @@ footer .socialmedia-logos, footer .contact-logos {
     margin-right: auto;
     justify-content: center;
     box-shadow: -3px 9px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+.cta-section .logo, footer .logo {
+    transition: all 0.2s ease;
+}
+
+.cta-section .socialmedia-logos .logo:active {
+    scale: 0.97;
+}
+
+.cta-section .socialmedia-logos .logo:hover {
+    filter: brightness(1.08);
 }
 
 .cta-section .logo img,
