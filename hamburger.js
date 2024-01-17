@@ -13,12 +13,12 @@ function toggleMobileMenu() {
         heroBlob.style.zIndex = "-1";
         heroBlob.style.scale = "1";
         document.querySelector(".mobile-menu").classList.remove("active");
-        document.body.style.overflow = "visible";
+        document.body.style.overflowY = "visible";
     } else {
         let heroBlob = document.querySelector("#hero-blob");
         heroBlob.style.zIndex = "2";
         heroBlob.style.scale = "12";
         document.querySelector(".mobile-menu").classList.add("active");
-        document.body.style.overflow = "hidden";
+        document.body.style.overflowY = "hidden";
     }
 }

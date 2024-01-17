@@ -276,7 +276,8 @@
         top: -300px;
         right: -500px;
         transform: rotateZ(-60deg);
-        /* display: none; */
+        object-fit: cover;
+        overflow: hidden;
     }
 
     .hero-main-content .left-side {
@@ -372,7 +373,7 @@
     }
 
     .portfolio-section .section-title {
-        font-size: 40px;
+        font-size: 52px;
     }
 
     .section-title {

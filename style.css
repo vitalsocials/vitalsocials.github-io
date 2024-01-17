@@ -5,6 +5,8 @@ html, body {
 body {
     background: #BFACA4;
     margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 * {
