@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function setDevicesPosition() {
         const categories = document.querySelectorAll(".category");
 
-        if (window.innerWidth > 1110) {
+        if (window.innerWidth > 1250) {
             
             const positions = [
                 [50, 0, 30, 0],

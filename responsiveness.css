@@ -129,6 +129,46 @@
         /* flex-direction: column; */
     }
 
+    #beauty-blob {
+        top: 700px;
+    }
+    
+    #health-blob {
+        top: 1800px
+    }
+    
+    #pet-blob {
+        top: 3200px;
+    }
+    
+    #food-blob {
+        top: 4500px;
+    }
+    
+    #apps-blob {
+        top: 5500px;
+    }
+    
+    #results-blob1 {
+        top: 8800px;
+    }
+    
+    #results-blob2 {
+        top: 9300px;
+    }
+    
+    #about-blob {
+        top: 10050px;
+    }
+    
+    #contact-blob1 {
+        top: 11000px;
+    }
+    
+    #contact-blob2 {
+        top: 12250px;
+    }
+
 }
 
 @media only screen and (max-width: 1110px) and (min-width: 950px) {
@@ -216,6 +256,22 @@
         width: 100%;
     }
 
+    .blobs img {
+        scale: 0.9;
+    }
+
+    #hero-blob, #health-blob, #food-blob, #results-blob1, #about-blob, #contact-blob2 {
+        right: -45px;
+    }
+
+    #hero-blob {
+        top: -45px;
+    }
+
+    #beauty-blob, #pet-blob, #apps-blob, #results-blob2, #contact-blob1 {
+        left: -60px;
+    }
+
 }
 
 @media only screen and (max-width: 950px) {
@@ -273,11 +329,24 @@
     }
 
     #hero-blob {
-        top: -300px;
+        display: none;
+        /* top: -300px;
         right: -500px;
         transform: rotateZ(-60deg);
         object-fit: cover;
-        overflow: hidden;
+        overflow: hidden; */
+    }
+
+    .hamburger-bg {
+        display: block;
+        width: 160px;
+        height: 100px;
+        border-radius: 0 0 0 100%;
+        background: linear-gradient(45deg, #BFA169, #A46C4E);
+        position: absolute;
+        top: 0;
+        right: 0;
+        transition: .2s;
     }
 
     .hero-main-content .left-side {
@@ -340,6 +409,26 @@
     .cta-section .section-subtitle {
         width: 80%;
         min-width: 600px;
+    }
+    
+    #results-blob1 {
+        top: 10600px;
+    }
+    
+    #results-blob2 {
+        top: 11500px;
+    }
+    
+    #about-blob {
+        top: 12500px;
+    }
+    
+    #contact-blob1 {
+        top: 13700px;
+    }
+    
+    #contact-blob2 {
+        top: 15150px;
     }
 
 }
@@ -407,6 +496,50 @@
         width: 100%;
     }
 
+    #beauty-blob {
+        top: 750px;
+    }
+    
+    #health-blob {
+        top: 2100px
+    }
+    
+    #pet-blob {
+        top: 3500px;
+    }
+    
+    #food-blob {
+        top: 4850px;
+    }
+    
+    #apps-blob {
+        top: 5900px;
+    }
+    
+    #results-blob1 {
+        top: 10550px;
+    }
+    
+    #results-blob2 {
+        top: 11500px;
+    }
+    
+    #about-blob {
+        top: 12600px;
+        display: none;
+    }
+    
+    #contact-blob1 {
+        top: 13930px;
+        left: -130px;
+        display: none;
+    }
+    
+    #contact-blob2 {
+        top: 15350px;
+        display: none;
+    }
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -429,6 +562,54 @@
     .cta-section .section-subtitle {
         min-width: auto;
         width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 621px) {
+
+    #beauty-blob {
+        top: 750px;
+    }
+    
+    #health-blob {
+        top: 2300px
+    }
+    
+    #pet-blob {
+        top: 4000px;
+    }
+    
+    #food-blob {
+        top: 5900px;
+    }
+    
+    #apps-blob {
+        top: 7000px;
+    }
+    
+    #results-blob1 {
+        top: 9000px;
+    }
+    
+    #results-blob2 {
+        top: 10300px;
+    }
+    
+    #about-blob {
+        top: 11700px;
+        display: block;
+    }
+    
+    #contact-blob1 {
+        top: 13930px;
+        left: -130px;
+        display: none;
+    }
+    
+    #contact-blob2 {
+        top: 15350px;
+        display: none;
     }
 
 }
@@ -468,6 +649,10 @@
         margin-top: 50px;
     }
 
+    #beauty-blob {
+        top: 800px;
+    }
+
 }
 
 @media only screen and (max-width: 550px) {
@@ -496,6 +681,10 @@
         padding: 30px;
     }
 
+    #beauty-blob {
+        top: 850px;
+    }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -512,6 +701,16 @@
     .services-section .section-subtitle {
         min-width: auto;
         width: 100%;
+    }
+
+    .services-section .section-title {
+        font-size: 46px;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .services-section .section-subtitle {
+        font-size: 20px;
     }
 
 }
@@ -533,6 +732,14 @@
 
     .cta-section form {
         padding: 20px;
+    }
+
+    #beauty-blob {
+        top: 880px;
+    }
+
+    .category .category-name {
+        font-size: 36px;
     }
 
 }
