@@ -256,38 +256,6 @@
         width: 100%;
     }
 
-    /* .blobs img {
-        scale: 0.9;
-    }
-
-    #hero-blob {
-        right: -43px;
-    }
-
-    #health-blob {
-        right: -40px;
-    }
-
-    #food-blob, #about-blob {
-        right: -36px;
-    }
-
-    #results-blob1 {
-        right: -38px;
-    }
-
-    #contact-blob2 {
-        right: -23px;
-    }
-
-    #hero-blob {
-        top: -45px;
-    }
-
-    #beauty-blob, #pet-blob, #apps-blob, #results-blob2, #contact-blob1 {
-        left: -60px;
-    } */
-
 }
 
 @media only screen and (max-width: 950px) {
@@ -312,7 +280,7 @@
 
     .hero-main-content .right-side {
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 
     .hero-main-content .right-side .hero-portrait {
@@ -346,11 +314,6 @@
 
     #hero-blob {
         display: none;
-        /* top: -300px;
-        right: -500px;
-        transform: rotateZ(-60deg);
-        object-fit: cover;
-        overflow: hidden; */
     }
 
     .hamburger-bg {
@@ -457,14 +420,6 @@
     }
 
 }
-
-/* @media only screen and (max-width: 790px) {
-
-    #health-blob {
-        right: -39px;
-    }
-
-} */
 
 @media only screen and (max-width: 765px) {
 
@@ -677,6 +632,14 @@
         top: 800px;
     }
 
+    .about-card {
+        padding-bottom: 20px;
+    }
+
+    .about-card .about-content p {
+        font-size: 20px;
+    }
+
 }
 
 @media only screen and (max-width: 550px) {
@@ -688,17 +651,18 @@
     .cta-section .container .socialmedia-logos,
     .cta-section .container .contact-logos {
         flex-direction: column;
-        gap: 50px;
+        gap: 35px;
         padding: 25px 25px;
+        max-width: 220px;
     }
 
     .cta-section .container .socialmedia-logos .logo img,
     .cta-section .container .contact-logos .logo img {
-        width: 90px;
+        width: 70px;
     }
 
     .cta-section .logo .name {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .cta-section form {
@@ -713,6 +677,11 @@
         width: 100%;
         height: 70px;
         font-size: 22px;
+    }
+
+    .cta-section form button {
+        height: 60px;
+        font-size: 20px;
     }
 
 }
@@ -750,6 +719,25 @@
         margin-top: 30px;
     }
 
+    .hero-main-content .right-side {
+        margin-bottom: 25px;
+        margin-top: -20px;
+    }
+
+    .hero-main-content .right-side .hero-portrait {
+        width: 250px;
+        height: 250px;
+    }
+
+    .hero-main-content .right-side .hero-portrait img {
+        width: 250px;
+    }
+
+    .hero-section .container .hamburger-bg {
+        width: 120px;
+        height: 90px;
+    }
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -777,6 +765,23 @@
 
     .category .category-name {
         font-size: 36px;
+    }
+
+    .hero-section .container .hamburger-bg {
+        width: 110px;
+        height: 80px;
+    }
+
+    .hero-main-content .right-side {
+        margin-bottom: 20px;
+    }
+
+    .about-card {
+        padding: 22px;
+    }
+
+    .about-card p {
+        font-size: 20px;
     }
 
 }
