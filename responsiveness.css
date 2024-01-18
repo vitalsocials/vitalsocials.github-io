@@ -129,6 +129,10 @@
         /* flex-direction: column; */
     }
 
+    .about-card .about-image {
+        width: 250px;
+    }
+
     #beauty-blob {
         top: 700px;
     }

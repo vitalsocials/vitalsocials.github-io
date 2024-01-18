@@ -12,6 +12,8 @@
     <script src="portfolio-devices.js" defer></script>
     <script src="hamburger.js" defer></script>
     <script src="sticky-menu.js" defer></script>
+    <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+    <script src="formsubmit.js" defer></script>
 </head>
 <body>
 
@@ -545,16 +547,16 @@
 
             <div class="or-text">Or send the message:</div>
 
-            <form action="">
+            <form onsubmit="submitForm();" method="POST">
 
                 <div class="input">
                     <div class="title">Email</div>
-                    <input type="text" placeholder="john.doe@email.com">
+                    <input type="email" name="email" placeholder="john.doe@email.com">
                 </div>
 
                 <div class="input" id="message-input">
                     <div class="title">Message</div>
-                    <textarea type="text" placeholder="Your message goes here..."></textarea>
+                    <textarea type="text" name="message" placeholder="Your message goes here..."></textarea>
                 </div>
 
                 <button type="submit">SEND</button>

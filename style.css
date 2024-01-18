@@ -466,7 +466,7 @@ footer ul li {
 
 .about-card {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     background: linear-gradient(45deg, #BFA169, #A46C4E);
     border-radius: 16px;
     padding: 55px;
@@ -477,7 +477,7 @@ footer ul li {
     border-radius: 16px;
     align-self: center;
     /* margin-bottom: auto; */
-    width: 250px;
+    width: 280px;
 }
 
 .about-content h1 {
