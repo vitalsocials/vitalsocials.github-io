@@ -6,7 +6,7 @@ body {
     background: #BFACA4;
     margin: 0;
     width: 100vw;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 * {
@@ -56,16 +56,16 @@ body {
     font-weight: 700;
 }
 
-.hero-section nav ul li:hover, footer ul li:hover {
+.hero-section nav ul li:hover, footer ul li:hover, .mobile-menu ul li:hover {
     text-decoration: underline;
     /* border-bottom: 1px solid black; */
 }
 
-.hero-section .logo {
+.hero-section .logo, .mobile-menu ul li {
     transition: all 0.2s ease;
 }
 
-.hero-section nav ul li:active, .hero-section .logo:active, footer ul li:active {
+.hero-section nav ul li:active, .hero-section .logo:active, footer ul li:active, .mobile-menu ul li:active {
     scale: .97;
 }
 

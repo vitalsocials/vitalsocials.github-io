@@ -203,6 +203,18 @@
         display: block;
     }
 
+    .hamburger-bg {
+        display: block;
+        width: 0px;
+        height: 80px;
+        border-radius: 0 0 0 100%;
+        background: linear-gradient(45deg, #BFA169, #A46C4E);
+        position: absolute;
+        top: 0;
+        right: 0;
+        transition: .2s;
+    }
+
     .portfolio-section .devices {
         width: 80%;
         margin-left: auto;
@@ -259,6 +271,11 @@
 }
 
 @media only screen and (max-width: 950px) {
+
+    .hamburger-bg {
+        width: 160px;
+        height: 80px;
+    }
     
     .hero-main-content {
         flex-direction: column-reverse;
@@ -318,14 +335,6 @@
 
     .hamburger-bg {
         display: block;
-        width: 160px;
-        height: 100px;
-        border-radius: 0 0 0 100%;
-        background: linear-gradient(45deg, #BFA169, #A46C4E);
-        position: absolute;
-        top: 0;
-        right: 0;
-        transition: .2s;
     }
 
     .hero-main-content .left-side {
