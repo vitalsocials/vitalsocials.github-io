@@ -816,3 +816,10 @@ a {
     right: 0;
     top: 9750px;
 }
+
+
+.thankyou-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
